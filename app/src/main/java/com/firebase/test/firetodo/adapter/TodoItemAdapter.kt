@@ -60,8 +60,8 @@ class ToDoItemAdapter(context: Context, toDoItemList: MutableList<ToDoItem>) : B
     }
 
     private class ListRowHolder(row: View?) {
-        val label: TextView = row!!.findViewById<TextView>(R.id.tv_item_text) as TextView
-        val isDone: CheckBox = row!!.findViewById<CheckBox>(R.id.cb_item_is_done) as CheckBox
-        val ibDeleteObject: ImageButton = row!!.findViewById<ImageButton>(R.id.iv_cross) as ImageButton
+        val label: TextView = row!!.findViewById(R.id.tv_item_text) as TextView
+        val isDone: CheckBox = row!!.findViewById(R.id.cb_item_is_done) as CheckBox
+        val ibDeleteObject: ImageButton = row!!.findViewById(R.id.iv_cross) as ImageButton
     }
 }
