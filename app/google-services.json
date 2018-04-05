@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "930854654859",
+    "firebase_url": "https://firetodo-6bc15.firebaseio.com",
+    "project_id": "firetodo-6bc15",
+    "storage_bucket": "firetodo-6bc15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930854654859:android:3383667abdd6e3a3",
+        "android_client_info": {
+          "package_name": "com.firebase.test.firetodo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930854654859-85hcst7jaghb1ct7242sddubr50fjdha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.firebase.test.firetodo",
+            "certificate_hash": "f2c93ab940057cb704553572cc51e3b7b9fd39c0"
+          }
+        },
+        {
+          "client_id": "930854654859-k2nthfaef9jsca3cnmfn8s1aj7lfokiu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBiDxINdthNFBdprgwmkCl25Xp7TSiV-0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "930854654859-k2nthfaef9jsca3cnmfn8s1aj7lfokiu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
