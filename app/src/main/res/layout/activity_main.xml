@@ -16,15 +16,15 @@
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
-        android:onClick="addNewItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
         android:layout_margin="15dp"
+        android:onClick="addNewItem"
         android:src="@android:drawable/ic_input_add"
         app:elevation="6dp"
         app:pressedTranslationZ="12dp" />
-
 
 
 </RelativeLayout>
